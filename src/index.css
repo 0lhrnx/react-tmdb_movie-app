@@ -1,0 +1,133 @@
+@import "reset.css";
+
+.root-wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.header-container {
+  background-color: rgba(3, 37, 65, 1);
+}
+
+.header-wrap {
+  height: 64px;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+}
+.header-left ul,
+.header-right ul {
+  display: flex;
+  margin-left: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left li,
+.header-right li {
+  margin-right: 14px;
+  padding: 8px;
+}
+.header-right {
+  position: absolute;
+  right: 100px;
+}
+
+.header-nav-item {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.page-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-container {
+  width: 250px;
+  margin: 16px;
+  background-color: #373b69;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-container img {
+  max-width: 100%;
+}
+
+.movie-info {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.movie-info h4 {
+  margin: 0;
+}
+
+.movie-info span {
+  margin-left: 3px;
+}
+
+.KoBtn:hover {
+  background-color: white;
+  color: black;
+}
+.Main-page {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.h1,
+.h2,
+.p {
+  padding: 0;
+}
+
+.PText {
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.Formlabel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  height: 60px;
+}
+.Spanlabel {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(33, 37, 41, 0.15);
+}
+.Inputlabel {
+  display: flex;
+  border: 2px solid rgba(33, 37, 41, 0.15);
+  width: 100%;
+  height: 28px;
+  padding: 6px 12px;
+  border-radius: 10px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.Inputlabel:focus {
+  border-color: skyblue;
+}
